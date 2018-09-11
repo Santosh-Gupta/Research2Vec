@@ -40,3 +40,4 @@ Although these properties were not robust in Lit2Vec although not entirely absen
 
 But I'm hoping to improve upon lit2vec's arithmetic properties in the future with more data. 
 
+In addition to the features of embeddings, just having a completly different system of research papers reccomendations can be benificial because if it can find even 1 paper that the other reccomenders didn't find, that alone may have a strong positive impact on the user. As someone who has conducted many thorough research paper searches, every single paper mattered. 
