@@ -69,3 +69,8 @@ Binary Latent Representations for Efficient Ranking: Empirical Assessment
 https://arxiv.org/abs/1706.07479
 
 Exact same concept, but two very different ways of descriptions and terminology.
+
+## How many papers does your reccomender cover?
+
+This first version contains 1666577 papers in computer science, and each paper has embedding has a length of 80. I have data from about 40 million papers (in computer science, nueroscience, and biomedical sciences), and the optimal embedding size is probably at least 200-300 (which is the case for word embeddings) but I am limited by my computational resources (Google Colaboratory) so I'm starting with this limited version. I hope I can get funding for larger computational resources so that I can include more papers and larger embeddings. 
+
