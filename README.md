@@ -8,7 +8,7 @@ https://www.reddit.com/r/Research2Vec/
 
 Here are anticipated FAQ and answers
 
-# What are other research papers reccomenders and how do they compare to yours?
+## What are other research papers reccomenders and how do they compare to yours?
 
 As far as I know:
 
@@ -18,7 +18,7 @@ Other major ones are https://www.semanticscholar.org/ , https://scholar.google.c
 
 I'm not sure exactly how they work but I'm guessing it's a combination of collaborative filtering, content based filtering, and graph-based reccomendations. I have not seen any indication that they are using embedding representations to represent whole papers. 
 
-# Why vector representation?
+## Why vector representation?
 
 My last project in representing books as vectors worked out pretty well 
 https://github.com/Santosh-Gupta/Lit2Vec
@@ -42,7 +42,7 @@ But I'm hoping to improve upon lit2vec's arithmetic properties in the future wit
 
 In addition to the features of embeddings, just having a completly different system of research papers reccomendations can be benificial because if it can find even 1 paper that the other reccomenders didn't find, that alone may have a strong positive impact on the user. As someone who has conducted many thorough research paper searches, every single paper mattered. 
 
-# How helpful are research paper reccomenders?
+## How helpful are research paper reccomenders?
 
 When I was in R&D, we spent a lot of time reinventing the wheel; a lot of techniques, methods, and processes that we developed we already pioneered or likely pioneers because, it's just that we weren't able to look for them, mainly due to not hitting the right keyword/phrasing in our queries.
 
