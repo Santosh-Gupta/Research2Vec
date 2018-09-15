@@ -10,11 +10,11 @@ I've created a subreddit to interact with users for this project
 
 The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. The database contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
 
-![alt text](Images/Intro1.jpg)
+![alt text](Images/intro1.jpg)
 
-![alt text](Images/Intro2.jpg)
+![alt text](Images/intro2.jpg)
 
-![alt text](Images/Intro3.jpg)
+![alt text](Images/intro3.jpg)
 
 ## What are other research papers reccomenders and how do they compare to yours?
 
@@ -108,7 +108,7 @@ Here's a step by step guide to help people get started
 
 Run the Section 1 of code in the Colab notebook. This will download the model and the dictionaries for the titles, Ids, and links. 
 
-![alt text](Images/Instruction1.jpg)
+![alt text](images/Instruction1.jpg)
 
 **Step 2:**
 
@@ -122,7 +122,7 @@ The Semantic Scholar paper ID is '9abbd40510ef4b9f1b6a77701491ff4f7f0fdfb3'
 
 Use the title(s) and/or Semantic Scholar's paperID(s) with Section 2 and Section 3 to get the EmbedID from the model. EmbedIDs are how the model keeps track of each paper (not the paperID). If using the title to search, don't forget to use only lower case letters only. 
 
-![alt text](Images/Instruction2.jpg)
+![alt text](images/Instruction2.jpg)
 
 The EmbedID is what each dictionary first returns. 
 
@@ -130,7 +130,7 @@ The EmbedID is what each dictionary first returns.
 
 Insert the EmbedID(s) as the values of paper1EmbedID, paper2EmbedID, paper3EmbedID, paper4EmbedID, etc. 
 
-![alt text](Images/Instruction3.jpg)
+![alt text](images/Instruction3.jpg)
 
 If you have less than or more than 4 papers you want to analyze, change this line 
 
