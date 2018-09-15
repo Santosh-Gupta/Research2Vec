@@ -10,11 +10,11 @@ I've created a subreddit to interact with users for this project
 
 The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. The database contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
 
-![alt text](Images/intro1.jpg)
+![alt text](images/Intro1.jpg)
 
-![alt text](Images/intro2.jpg)
+![alt text](images/Intro2.jpg)
 
-![alt text](Images/intro3.jpg)
+![alt text](images/Intro3.jpg)
 
 ## What are other research papers reccomenders and how do they compare to yours?
 
