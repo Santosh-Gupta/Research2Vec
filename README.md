@@ -124,7 +124,7 @@ The EmbedID is what each dictionary first returns.
 
 **Step 3:**
 
-Insert the EmbedID(s) as the values of paper1EmbedID, paper2EmbedID, paper3EmbedID, paper4EmbedID, etc. 
+In Section 4, insert the EmbedID(s) as the values of paper1EmbedID, paper2EmbedID, paper3EmbedID, paper4EmbedID, etc. 
 
 ![alt text](images/Instruction3.jpg)
 
@@ -139,7 +139,7 @@ and create or eliminate the lines of code for vector extraction
     paper3 = np.take(final_embeddings, paper3EmbedID , axis=0)   
     paper4 = np.take(final_embeddings, paper4EmbedID , axis=0) 
 
-Finally, run Section 4 to get a TSNE map of the recomendations. With 300 papers, it takes 15-18 minutes for the map to be produced. 
+Finally, run Section 5 to get a TSNE map of the recomendations. With 300 papers, it takes 15-18 minutes for the map to be produced. 
 
 **Ask any question you have no matter how minor, I want people to use this as quickly as possible with as little time as possible figuring out what to do.** 
 
