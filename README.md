@@ -31,14 +31,14 @@ https://github.com/Santosh-Gupta/Lit2Vec
 
 One of the advantages of having items representated as a vector is that not only can you get reccomendations for a particular items, but you can see how the reccomendations are related to each other. You can also just check out a particular field and see the intersections of two fields. 
 
-(book image from lit2vec here)
+![alt text](images/Book2VecSample5.JPG)
 
 Also, embeddings can have arithmetic properties
 https://www.youtube.com/watch?time_continue=25&v=IbI2RJLxGZg
 
 Although these properties were not robust in Lit2Vec although not entirely absent
 
-(book image from lit2vec here)
+![alt text](images/book2vecVectorAdd.JPG)
 
 But I'm hoping to improve upon lit2vec's arithmetic properties in the future with more data. 
 
