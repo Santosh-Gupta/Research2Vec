@@ -157,7 +157,7 @@ As of right now, the recommender has 1,666,577 papers. I hope to make future ver
 
 I am hoping to get as much feedback as possible. I am specifically looking for cases where you feel that the recommender should have given a particular paper in the top results, but didn't. I am hoping to make an evaluation toolkit (kinda like Facebook SentEval https://github.com/facebookresearch/SentEval ) that I can use to tune the hyperparameters.
 
-The most useful feedback are any papers you feel that should have been included in the top results, but weren't. Also, if you see any results that just look totally off, but would be helpful too. 
+The most useful feedback are any papers you feel that should have been included in the top results, but weren't. Also, if you see any results that just look totally off, that would be helpful too. 
 
 Of course, I would very much appreciate whatever feedback, questions, comments, thoughts you have on this project.
 
