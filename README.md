@@ -153,6 +153,8 @@ As of right now, the recommender has 1,666,577 papers. I hope to make future ver
 
 I am hoping to get as much feedback as possible. I am specifically looking for cases where you feel that the recommender should have given a particular paper in the top results, but didn't. I am hoping to make an evaluation toolkit (kinda like Facebook SentEval https://github.com/facebookresearch/SentEval ) that I can use to tune the hyperparameters.
 
+This feedback will also be helpful in my future plans, where I am planning on incorporating several other measures of similarity, and then use a attention mechanism to weight them for a final similarity. One method of content analysis I would really like to use is Contextual Salience https://arxiv.org/abs/1803.08493. Another was something another Redditor just pointed out is cite2vec https://matthewberger.github.io/papers/cite2vec.pdf
+
 The most useful feedback are any papers you feel that should have been included in the top results, but weren't. Also, if you see any results that just look totally off, that would be helpful too. 
 
 Of course, I would very much appreciate whatever feedback, questions, comments, thoughts you have on this project.
@@ -176,6 +178,12 @@ When I get more computational resources, I would like to include more papers in 
 Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding represenation of embeddings have found to have an optimal length of 200-300. 
 
 If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
+
+As mentioned, I would like to incorporate other measures of similarity, such as content-based methods, and then perhaps incorporate an attention mechanism to weigh these measures for different tasks / queries. 
+
+Using a combo like this would help in one of the reoccurring hard search cases I encountered in R&D, which was trying to look up parameters of a particular method, when the method itself is not the focus of the paper. I was just actually encountering this issue when doing my project. I wanting to know more about what optimal hyperparameters others have found when working with embedding representations. This may not be the main topic of the paper, but it may have been described in the methods section of the paper. But this is hard to search for since paper searches mainly focus on the main subjects of the paper.
+
+Two methods I am currently very interested in incoporating are Contextual Salience https://arxiv.org/abs/1803.08493 and Cite2Vec  https://matthewberger.github.io/papers/cite2vec.pdf
 
 ## Contact/Donate
 
