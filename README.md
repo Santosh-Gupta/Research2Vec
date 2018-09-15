@@ -98,7 +98,7 @@ Finally, my favorite part, you can get TSNE maps of the recommendations for the 
 
 A great use case would be if you're writing a paper, or plan to do some research and would like to check if someone has already done something similar. You can input all the papers you cited or would like to cite, and look over the recommendations.
 
-###How do I use it ?
+## How do I use it ?
 
 I tried to make this user friendly and as fast to figure out and run as possible, but there's probably stuff I didn't take into account. Let me know of you have any questions on how to run it or any feedback. If you want, you can just give me what papers you want to analyze and I'll do it for you (look up the papers on https://www.semanticscholar.org/ first )
 
