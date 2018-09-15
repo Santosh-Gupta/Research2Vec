@@ -4,7 +4,7 @@ This is a research paper recommender, which works by a vector representation of 
 
 ## What is it?
 
-The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. The database contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want !) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
+The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. This recommender contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want !) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
 
 ![alt text](images/Intro1.jpg)
 
@@ -26,7 +26,7 @@ What I am hoping to see is if my recommender can recommend a paper that's very r
 
 ## Why vector representation?
 
-My last project in representing books as vectors worked out pretty well 
+My last recommender with representing books as vectors worked out pretty well 
 https://github.com/Santosh-Gupta/Lit2Vec
 
 One of the advantages of having items representated as a vector is that not only can you get reccomendations for a particular items, but you can see how the reccomendations are related to each other. You can also just check out a particular field and see the intersections of two fields. 
@@ -44,7 +44,7 @@ But I'm hoping to improve upon lit2vec's arithmetic properties in the future wit
 
 In addition to the features of embeddings, just having a completly different system of research papers reccomendations can be benificial because if it can find even 1 paper that the other reccomenders didn't find, that alone may have a strong positive impact on the user. As someone who has conducted many thorough research paper searches, every single paper mattered. 
 
-## How helpful are research paper reccomenders?
+## How helpful are research paper recommenders?
 
 When I was in R&D, we spent a lot of time reinventing the wheel; a lot of techniques, methods, and processes that we developed we already pioneered or likely pioneered.  The issue was that we weren't able to look for them, mainly due to not hitting the right keyword/phrasing in our queries.
 
@@ -141,7 +141,7 @@ Finally, run Section 4 to get a TSNE map of the recomendations. With 300 papers,
 
 ## Other details
 
-So it probably doesn't have any papers released in the last 5 months; I think the corpus was last updated in May 2018. Due to the limitation on my computational resources (Google Colab) I had to filter towards more papers with more connections to other papers in the database. A connection is either a citation to another paper in the database, or cited by another paper in the database. I filtered to only include papers with 20 or more connections because Colab would crash if I tried to include more.
+It probably doesn't have any papers released in the last 5 months; I think the corpus was last updated in May 2018. Due to the limitation on my computational resources (Google Colab) I had to filter towards more papers with more connections to other papers in the database. A connection is either a citation to another paper in the database, or cited by another paper in the database. I filtered to only include papers with 20 or more connections because Colab would crash if I tried to include more.
 
 As of right now, the recommender has 1,666,577 papers. I hope to make future versions with more many more papers, including papers from other fields.
 
@@ -173,6 +173,8 @@ Also with just the 1,666,577 papers, the max embedding size I can use is 80, whe
 
 If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
 
-## Contact
+## Contact/Donate
 
 Research2Vec@gmail.com
+
+paypal.me/Research2Vec
