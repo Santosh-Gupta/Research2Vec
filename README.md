@@ -181,4 +181,6 @@ Also with just the 1,666,577 papers, the max embedding size I can use is 80, whe
 
 If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
 
+## Contact
 
+Research2vec@gmail.com
