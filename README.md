@@ -1,6 +1,6 @@
 # Research2Vec
 
-This is a research paper recommender that works by vector representation of the research papers. It is ready for you to use! The Google Colab notebook will automatically download the Tensorflow model, all you have to do is input the paper(s) and explore the results. 
+This is a research paper recommender, which works by a vector representation of each of the research papers. It is ready for you to use! The Google Colab notebook will automatically download the Tensorflow model, all you have to do is input the paper(s) and explore the results. 
 
 ## What is it?
 
