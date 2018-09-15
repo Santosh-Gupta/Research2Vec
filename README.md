@@ -14,7 +14,7 @@ The dataset used is Semantic Scholar's corpus of research paper (https://labs.se
 
 ![alt text](images/Intro2.jpg)
 
-![alt text](images/Intro3.jpg)
+![alt text](images/Intro3.JPG)
 
 ## What are other research papers reccomenders and how do they compare to yours?
 
