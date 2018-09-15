@@ -86,7 +86,11 @@ You can see a TSNE map of how those similar papers are related to each other. Th
 
 You can input several papers by adding the embeddings, and get recommendations for combined papers, just add the embeddings for all the papers (you don't have to average them since the embeddings are normalized ).
 
+![alt text](images/Intro1.jpg)
+
 Finally, my favorite part, you can get TSNE maps of the recommendations for the combined papers are well.
+
+![alt text](images/Intro3.JPG)
 
 A great use case would be if you're writing a paper, or plan to do some research and would like to check if someone has already done something similar. You can input all the papers you cited or would like to cite, and look over the recommendations.
 
