@@ -26,7 +26,7 @@ Other major ones are https://www.semanticscholar.org/ , https://scholar.google.c
 
 I'm not sure exactly how they work but I'm guessing it's a combination of collaborative filtering, content based filtering, and graph-based reccomendations. I have not seen any indication that they are using embedding representations to represent whole papers. 
 
-What I am hoping to see is if my recommender can recommend a paper that's very relevant, but not included in the recommendations of the first 3 recommenders I mentioned. If this can do this consistently, then it would be a worthy recommender to utilize in addition of the other 3.
+What I am hoping to see is if my recommender can recommend a paper that's very relevant, but not included in the recommendations of the four recommenders I mentioned. If my recommender can do this consistently, then it would be a worthy recommender to utilize in addition of the other 3.
 
 ## Why vector representation?
 
@@ -170,3 +170,13 @@ https://www.reddit.com/r/Research2Vec/
 You can also follow my Reddit username for this project
 
 https://old.reddit.com/user/Research2Vec/
+
+## Future Work
+
+I would like to tune hyperparameters based on the feedback I get, for example trying to get particular papers in the top results of other particular papers. 
+
+When I get more computational resources, I would like to include more papers in more scientific areas. Right now I have 1,666,577 papers in Computer Science, which is just a fraction of the total number of papers I have availible. It's just that if I include more, Google Colab will crash because it runs out of RAM. The Semantic Scholar Corpus has over 39 million papers in CS, nueroscience, and biomedical sciences. 
+
+Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding represenation of embeddings have found to have an optimal length of 200-300. 
+
+If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
