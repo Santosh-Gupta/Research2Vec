@@ -54,7 +54,7 @@ In addition to the features of embeddings, just having a completly different sys
 
 ## How helpful are research paper reccomenders?
 
-When I was in R&D, we spent a lot of time reinventing the wheel; a lot of techniques, methods, and processes that we developed we already pioneered or likely pioneers because, it's just that we weren't able to look for them, mainly due to not hitting the right keyword/phrasing in our queries.
+When I was in R&D, we spent a lot of time reinventing the wheel; a lot of techniques, methods, and processes that we developed we already pioneered or likely pioneered.  The issue was that we weren't able to look for them, mainly due to not hitting the right keyword/phrasing in our queries.
 
 There's a lot of variation in terms which can make finding papers for a particular concept very tricky at times.
 
@@ -180,3 +180,5 @@ When I get more computational resources, I would like to include more papers in 
 Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding represenation of embeddings have found to have an optimal length of 200-300. 
 
 If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
+
+
