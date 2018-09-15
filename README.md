@@ -1,14 +1,10 @@
 # Research2Vec
 
-Upcoming project for representing research papers as vectors / latent representations. More coming soon 
-
-I've created a subreddit to interact with users for this project
-
-
+This is a research paper recommender that works by vector representation of the research papers. It is ready for you to use! The Google Colab notebook will automatically download the Tensorflow model, all you have to do is input the paper(s) and explore the results. 
 
 ## What is it?
 
-The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. The database contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
+The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. The database contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want !) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
 
 ![alt text](images/Intro1.jpg)
 
@@ -33,11 +29,7 @@ What I am hoping to see is if my recommender can recommend a paper that's very r
 My last project in representing books as vectors worked out pretty well 
 https://github.com/Santosh-Gupta/Lit2Vec
 
-One of the advantages of having items representated as a vector is that not only can you get reccomendations for a particular items, but you can see how the reccomendations are related to each other. 
-
-(book image from lit2vec here)
-
-You can also just check out a particular field and see the intersections of two fields. 
+One of the advantages of having items representated as a vector is that not only can you get reccomendations for a particular items, but you can see how the reccomendations are related to each other. You can also just check out a particular field and see the intersections of two fields. 
 
 (book image from lit2vec here)
 
