@@ -183,4 +183,4 @@ If you have any reccomendations for computational resources, let me know. I don'
 
 ## Contact
 
-Research2vec@gmail.com
+Research2Vec@gmail.com
