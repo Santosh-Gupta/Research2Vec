@@ -4,9 +4,7 @@ Upcoming project for representing research papers as vectors / latent representa
 
 I've created a subreddit to interact with users for this project
 
-https://www.reddit.com/r/Research2Vec/
 
-Here are anticipated FAQ and answers
 
 ## What is it?
 
@@ -158,3 +156,13 @@ As of right now, the recommender has 1,666,577 papers. I hope to make future ver
 I am hoping to get as much feedback as possible. I am specifically looking for cases where you feel that the recommender should have given a particular paper in the top results, but didn't. I am hoping to make an evaluation toolkit (kinda like Facebook SentEval https://github.com/facebookresearch/SentEval ) that I can use to tune the hyperparameters.
 
 Of course, I would very much appreciate whatever feedback, questions, comments, thoughts you have on this project.
+
+## More info, discussions
+
+Visit my subreddit for this project
+
+https://www.reddit.com/r/Research2Vec/
+
+You can also follow my Reddit username for this project
+
+https://old.reddit.com/user/Research2Vec/
