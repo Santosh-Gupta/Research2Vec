@@ -96,6 +96,10 @@ A great use case would be if you're writing a paper, or plan to do some research
 
 ## How do I use it ?
 
+Here's a quick video demonstration:
+
+https://youtu.be/tlutFm1meMs
+
 I tried to make this user friendly and as fast to figure out and run as possible, but there's probably stuff I didn't take into account. Let me know of you have any questions on how to run it or any feedback. If you want, you can just give me what papers you want to analyze and I'll do it for you (look up the papers on https://www.semanticscholar.org/ first )
 
 Here's a step by step guide to help people get started
