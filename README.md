@@ -191,8 +191,8 @@ Using a combo like this would help in one of the reoccurring hard search cases I
 
 Two methods I am currently very interested in incoporating are Contextual Salience https://arxiv.org/abs/1803.08493 and Cite2Vec  https://matthewberger.github.io/papers/cite2vec.pdf
 
-## Contact/Donate
+## Contact
 
 Research2Vec@gmail.com
 
-paypal.me/Research2Vec
+
