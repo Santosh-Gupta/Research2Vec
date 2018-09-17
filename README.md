@@ -163,6 +163,10 @@ Of course, I would very much appreciate whatever feedback, questions, comments, 
 
 ## More info, discussions, where to give feedback
 
+Reddit Machine Learning subreddit discussion on this project
+
+https://redd.it/9fxajs
+
 Visit my subreddit for this project
 
 https://www.reddit.com/r/Research2Vec/
