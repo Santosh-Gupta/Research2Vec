@@ -14,8 +14,6 @@ The dataset used is Semantic Scholar's corpus of research paper (https://labs.se
 
 ## What are other research papers reccomenders and how do they compare to yours?
 
-As far as I know:
-
 For machine learning / cs there is http://www.arxiv-sanity.com/ which uses tf-idf vectors based on the contents of the papers
 
 Other major ones are https://www.semanticscholar.org/ , https://scholar.google.com/ ,  https://www.mendeley.com, and https://academic.microsoft.com/ . 
