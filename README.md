@@ -181,7 +181,7 @@ I would like to tune hyperparameters based on the feedback I get, for example tr
 
 When I get more computational resources, I would like to include more papers in more scientific areas. Right now I have 1,666,577 papers in Computer Science, which is just a fraction of the total number of papers I have availible. But if I included more, Google Colab will crash because it runs out of RAM. The Semantic Scholar Corpus has over 39 million papers in CS, nueroscience, and biomedical sciences. 
 
-Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding represenation of embeddings have found to have an optimal length of 200-300. 
+Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding representation of embeddings have found to have an optimal length of 200-300. 
 
 If you have any reccomendations for computational resources, let me know. I don't know a very powerful GPU, Colab's K80 works very well, I just need a lot more ram. Currently Colab has about 13 GB. 
 
