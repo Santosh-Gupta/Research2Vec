@@ -147,7 +147,7 @@ Finally, run Section 5 to get a TSNE map of the recomendations. With 300 papers,
 
 ## Other details
 
-It probably doesn't have any papers released in the last 5 months; I think the corpus was last updated in May 2018. Due to the limitation on my computational resources (Google Colab) I had to filter towards more papers with more connections to other papers in the database. A connection is either a citation to another paper in the database, or cited by another paper in the database. I filtered to only include papers with 20 or more connections because Colab would crash if I tried to include more.
+It probably doesn't have any papers released in the last 5 months; I think the corpus was last updated in May 2018. Due to the limitation on my computational resources (Google Colab) I had to filter towards out papers with less than 20 connections. A connection is either a citation to another paper in the database, or cited by another paper in the database. I filtered to only include papers with 20 or more connections because Colab could not handle all the papers I had on Computer Science. 
 
 As of right now, the recommender has 1,666,577 papers. I hope to make future versions with more many more papers, including papers from other fields.
 
@@ -175,7 +175,7 @@ https://old.reddit.com/user/Research2Vec/
 
 I would like to tune hyperparameters based on the feedback I get, for example trying to get particular papers in the top results of other particular papers. 
 
-When I get more computational resources, I would like to include more papers in more scientific areas. Right now I have 1,666,577 papers in Computer Science, which is just a fraction of the total number of papers I have availible. It's just that if I include more, Google Colab will crash because it runs out of RAM. The Semantic Scholar Corpus has over 39 million papers in CS, nueroscience, and biomedical sciences. 
+When I get more computational resources, I would like to include more papers in more scientific areas. Right now I have 1,666,577 papers in Computer Science, which is just a fraction of the total number of papers I have availible. But if I included more, Google Colab will crash because it runs out of RAM. The Semantic Scholar Corpus has over 39 million papers in CS, nueroscience, and biomedical sciences. 
 
 Also with just the 1,666,577 papers, the max embedding size I can use is 80, where as most uses of embedding represenation of embeddings have found to have an optimal length of 200-300. 
 
