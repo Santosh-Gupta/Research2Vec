@@ -118,7 +118,7 @@ https://www.semanticscholar.org/paper/Distributed-Representations-of-Sentences-a
 
 The Semantic Scholar paper ID is '9abbd40510ef4b9f1b6a77701491ff4f7f0fdfb3'
 
-Use the title(s) and/or Semantic Scholar's paperID(s) with Section 2 and Section 3 to get the EmbedID from the model. EmbedIDs are how the model keeps track of each paper (not the paperID). If using the title to search, don't forget to use only lower case letters only. 
+Use the title(s) and/or Semantic Scholar's paperID(s) with Section 2 and Section 3 to get the EmbedID from the model. EmbedIDs are how the model keeps track of each paper (not the paperID).
 
 ![alt text](images/Instruction2New.JPG)
 
