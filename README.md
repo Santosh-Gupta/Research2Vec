@@ -8,6 +8,7 @@ I uploaded the code that I used to train the embeddings.
 https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecTraining2.ipynb 
 
 Let me know if you have any feedback on the way it was coded. I am looking for ways to train more and longer embeddings without crashing Google Colab. So far for 1,666,577 papers, the max embedding size is 80. At size 81 the training crashes. 
+
 -----------------------------------------------------------------------------
 
 This is a research paper recommender, which works by a vector representation of each of the research papers. It is ready for you to use! The Google Colab notebook will automatically download the Tensorflow model, all you have to do is input the paper(s) and explore the results. 
