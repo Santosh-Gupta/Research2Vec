@@ -1,13 +1,17 @@
 # Research2Vec
 
-------------------------------------------------------------------------------
-Update: 9-18-18  
+-------------------------------------------------------------------------
+Latest Update: 9-21-18 (previous updates at the bottom)
 
-I uploaded the code that I used to train the embeddings.  
+I developed a much more imporved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning. 
 
-https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecTraining2.ipynb 
+I have gotten a lot of feedback, and also information and leads to further develop my recommender. From the feedback, I was able to greatly increase the quality of my results by calculating the similarity for all combinations for the input embeddings and softmax embeddings, of the input paper and recommended papers. I then returned papers with highest similarity from all four sets of similarity calculations. 
 
-Let me know if you have any feedback on the way it was coded. I am looking for ways to train more and longer embeddings without crashing Google Colab. So far for 1,666,577 papers, the max embedding size is 80. At size 81 the training crashes. 
+I suspected this would be the best approach when I did my book recommender project ( https://github.com/Santosh-Gupta/Lit2Vec ) but the input embeddings were very robust and I didn't notice much of a difference. Thanks to the feedback I gotten on this project, I now know this is the vastly more effective approach. 
+
+If you want improved results for papers you looked up, email me at Research2Vec@gmail.com or post in my subreddit https://www.reddit.com/r/Research2Vec/
+
+I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaulation suite down the rown. 
 
 -----------------------------------------------------------------------------
 
@@ -206,4 +210,12 @@ Two methods I am currently very interested in incoporating are Contextual Salien
 
 Research2Vec@gmail.com
 
+------------------------------------------------------------------------------
+Update: 9-18-18  
+
+I uploaded the code that I used to train the embeddings.  
+
+https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecTraining2.ipynb 
+
+Let me know if you have any feedback on the way it was coded. I am looking for ways to train more and longer embeddings without crashing Google Colab. So far for 1,666,577 papers, the max embedding size is 80. At size 81 the training crashes. 
 
