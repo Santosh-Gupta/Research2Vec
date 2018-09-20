@@ -1,7 +1,7 @@
 # Research2Vec
 
 -------------------------------------------------------------------------
-Latest Update: 9-21-18 (previous updates at the bottom)
+### Latest Update: 9-21-18 (previous updates at the bottom)
 
 I developed a much more imporved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning. 
 
