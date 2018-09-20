@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------
 ### Latest Update: 9-21-18 (previous updates at the bottom)
 
-I developed a much more imporved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning. 
+I developed a much more improved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning, and number 5 overall this month. 
 
 I have gotten a lot of feedback, and also information and leads to further develop my recommender. From the feedback, I was able to greatly increase the quality of my results by calculating the similarity for all combinations for the input embeddings and softmax embeddings, of the input paper and recommended papers. I then returned papers with highest similarity from all four sets of similarity calculations. 
 
@@ -11,7 +11,7 @@ I suspected this would be the best approach when I did my book recommender proje
 
 If you want improved results for papers you looked up, email me at Research2Vec@gmail.com or post in my subreddit https://www.reddit.com/r/Research2Vec/
 
-I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaulation suite down the rown. 
+I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaluation suite down the road. 
 
 -----------------------------------------------------------------------------
 
