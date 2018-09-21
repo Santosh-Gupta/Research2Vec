@@ -9,6 +9,8 @@ I have gotten a lot of feedback, and also information and leads to further devel
 
 I suspected this would be the best approach when I did my book recommender project ( https://github.com/Santosh-Gupta/Lit2Vec ) but the input embeddings were very robust and I didn't notice much of a difference. Thanks to the feedback I gotten on this project, I now know this is the vastly more effective approach. 
 
+Here's a directly link to the updated recommender https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
+
 If you want improved results for papers you looked up, email me at Research2Vec@gmail.com or post in my subreddit https://www.reddit.com/r/Research2Vec/
 
 I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaluation suite down the road. 
