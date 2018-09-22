@@ -1,19 +1,11 @@
 # Research2Vec
 
 -------------------------------------------------------------------------
-### Latest Update: 9-21-18 (previous updates at the bottom)
+### Latest Update: 9-22-18 (previous updates at the bottom)
 
-I developed a much more improved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning, and number 5 overall this month. 
+I updated the version for computer science papers, new version here https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
 
-I have gotten a lot of feedback, and also information and leads to further develop my recommender. From the feedback, I was able to greatly increase the quality of my results by calculating the similarity for all combinations for the input embeddings and softmax embeddings, of the input paper and recommended papers. I then returned papers with highest similarity from all four sets of similarity calculations. 
-
-I suspected this would be the best approach when I did my book recommender project ( https://github.com/Santosh-Gupta/Lit2Vec ) but the input embeddings were very robust and I didn't notice much of a difference. Thanks to the feedback I gotten on this project, I now know this is the vastly more effective approach. 
-
-Here's a directly link to the updated recommender https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
-
-If you want improved results for papers you looked up, email me at Research2Vec@gmail.com or post in my subreddit https://www.reddit.com/r/Research2Vec/
-
-I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaluation suite down the road. 
+I also released a version for Medline papers https://github.com/Santosh-Gupta/Research2Vec/blob/master/MedLineResearch2VecPublicPlayGroundV2.ipynb
 
 -----------------------------------------------------------------------------
 
@@ -21,7 +13,7 @@ This is a research paper recommender, which works by a vector representation of 
 
 ## What is it?
 
-The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. This recommender contains 1,666,577 papers, mostly in the computer science field. You can put 1 or more (as many as you want !) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
+The dataset used is Semantic Scholar's corpus of research paper (https://labs.semanticscholar.org/corpus/ ), and was trained by a Word2Vec-based algorithm to develop an embedding for each paper. You can put 1 or more (as many as you want !) papers and the recommender will return the most similar papers to those papers. You can also make TSNE maps of those recommendations.
 
 ![alt text](images/Intro1.jpg)
 
@@ -93,7 +85,7 @@ This first version contains 1666577 papers in computer science, and each paper h
 
 ## What can you do with it ?
 
-You can input a paper, and see what are the most similar papers to it, though the first 30-80 will most likely be papers it has cited or was cited by. I've set it to return 300 papers but it ranks all 1,666,577 papers so you can set it to return whatever number of papers you want without any change in performance (except when it comes to developing the TSNE maps)
+You can input a paper, and see what are the most similar papers to it, though the first 30-80 will most likely be papers it has cited or was cited by. I've set it to return 200 papers but it ranks all 1,666,577 papers so you can set it to return whatever number of papers you want without any change in performance (except when it comes to developing the TSNE maps)
 
 Now, the fun part: utilization the embedding properties:
 
@@ -114,6 +106,10 @@ A great use case would be if you're writing a paper, or plan to do some research
 Here's a quick video demonstration:
 
 https://youtu.be/tlutFm1meMs
+
+Here's the version for Computer Science papers https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
+
+Here's the version for Medline papers  https://github.com/Santosh-Gupta/Research2Vec/blob/master/MedLineResearch2VecPublicPlayGroundV2.ipynb
 
 I tried to make this user friendly and as fast to figure out and run as possible, but there's probably stuff I didn't take into account. Let me know of you have any questions on how to run it or any feedback. If you want, you can just give me what papers you want to analyze and I'll do it for you (look up the papers on https://www.semanticscholar.org/ first )
 
@@ -166,7 +162,7 @@ Finally, run Section 5 to get a TSNE map of the recomendations. With 300 papers,
 
 It probably doesn't have any papers released in the last 5 months; I think the corpus was last updated in May 2018. Due to the limitation on my computational resources (Google Colab) I had to filter towards out papers with less than 20 connections. A connection is either a citation to another paper in the database, or cited by another paper in the database. I filtered to only include papers with 20 or more connections because Colab could not handle all the papers I had on Computer Science. 
 
-As of right now, the recommender has 1,666,577 papers. I hope to make future versions with more many more papers, including papers from other fields.
+As of right now, the recommender has 1,666,577 papers for the CS version, and 2,096,359 for the MedLine version. I hope to make future versions with more many more papers, including papers from other fields.
 
 ## Feedback greatly appreciated !
 
@@ -221,3 +217,18 @@ https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecTraining2.
 
 Let me know if you have any feedback on the way it was coded. I am looking for ways to train more and longer embeddings without crashing Google Colab. So far for 1,666,577 papers, the max embedding size is 80. At size 81 the training crashes. 
 
+------------------------------------
+
+Update: 9-21-18 (previous updates at the bottom)
+
+I developed a much more improved version of my recommender thanks to all the feedback I got. Btw THANK YOU SO MUCH FOR THE INTEREST/FEEDBACK EVERYONE. I was retweeted by some prominant names in machine learning, and was the top voted post this week on reddit.com/r/machinelearning, and number 5 overall this month. 
+
+I have gotten a lot of feedback, and also information and leads to further develop my recommender. From the feedback, I was able to greatly increase the quality of my results by calculating the similarity for all combinations for the input embeddings and softmax embeddings, of the input paper and recommended papers. I then returned papers with highest similarity from all four sets of similarity calculations. 
+
+I suspected this would be the best approach when I did my book recommender project ( https://github.com/Santosh-Gupta/Lit2Vec ) but the input embeddings were very robust and I didn't notice much of a difference. Thanks to the feedback I gotten on this project, I now know this is the vastly more effective approach. 
+
+Here's a directly link to the updated recommender https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
+
+If you want improved results for papers you looked up, email me at Research2Vec@gmail.com or post in my subreddit https://www.reddit.com/r/Research2Vec/
+
+I have many more plans to build upon this recommender, and I use the feedback I get as an evaluation suite for my recommenders. I'm also good at finding papers in general ( I actually host features where I help people find papers https://www.reddit.com/r/MLPapersQandA/ ) , and I may be able to find you a paper on a particular topic you had in mind without the recommender, then use this case for my evaluation suite down the road. 
