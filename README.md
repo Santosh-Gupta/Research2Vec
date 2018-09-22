@@ -3,9 +3,11 @@
 -------------------------------------------------------------------------
 ### Latest Update: 9-22-18 (previous updates at the bottom)
 
-I updated the version for computer science papers, new version here https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
+I updated the version for computer science papers, this version returns much better results than the old version. New version here https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
+Post on how I improved it https://redd.it/9hjon2
 
-I also released a version for Medline papers https://github.com/Santosh-Gupta/Research2Vec/blob/master/MedLineResearch2VecPublicPlayGroundV2.ipynb
+I also released a version for Medline papers. This contains 2,096,359 of the most prominant papers on Medline. Here's a direct link
+https://github.com/Santosh-Gupta/Research2Vec/blob/master/MedLineResearch2VecPublicPlayGroundV2.ipynb
 
 -----------------------------------------------------------------------------
 
