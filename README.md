@@ -31,7 +31,7 @@ Other major ones are https://www.semanticscholar.org/ , https://scholar.google.c
 
 They all seem to use combination of collaborative filtering, content based filtering,  graph-based reccomendations, as well as embeddings representations. However, I have not seen them take full advantage of the embedding representation, specifically vector arithmatic or 2D similarity maps (TSNE). 
 
-What I am hoping to see is if my recommender can recommend a paper that's very relevant, but not included in the recommendations of the four recommenders I mentioned. If my recommender can do this consistently, then it would be a worthy recommender to utilize in addition of the other 3.
+What I am hoping to see is if my recommender can recommend a paper that's very relevant, but not included in the recommendations of the four recommenders I mentioned. If my recommender can do this consistently, then it would be a worthy recommender to utilize in addition of the others.
 
 ## Why vector representation?
 
