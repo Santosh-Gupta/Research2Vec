@@ -45,7 +45,7 @@ One of the advantages of having items representated as a vector is that not only
 Also, embeddings can have arithmetic properties
 https://www.youtube.com/watch?time_continue=25&v=IbI2RJLxGZg
 
-Although these properties were not robust in Lit2Vec, but not entirely absent
+These properties were not robust in Lit2Vec, but not entirely absent
 
 ![alt text](images/book2vecVectorAdd.JPG)
 
