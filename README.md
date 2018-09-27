@@ -87,7 +87,9 @@ This first version contains 1666577 papers in computer science, and each paper h
 
 ## What can you do with it ?
 
-You can input a paper, and see what are the most similar papers to it, though the first 30-80 will most likely be papers it has cited or was cited by. I've set it to return 200 papers but it ranks all 1,666,577 papers so you can set it to return whatever number of papers you want without any change in performance (except when it comes to developing the TSNE maps)
+You can input a paper, and see what are the most similar papers to it. I predicted that the first papers returned would be papers that reference or were referenced by that paper, but from the feedback I have recieved so far (keep in mind only double digits out of the 1.6 million papers), it seems that this quite not the case. The top papers mostly include papers who referenced the same sources. Cited papers do appear in the top results, but so far there seems to be a much stronger corellation on subject papers. I will continue to study the way this recommender behaves. 
+
+I've set it to return 200 papers but it ranks all 1,666,577 papers so you can set it to return whatever number of papers you want without any change in performance (except when it comes to developing the TSNE maps)
 
 Now, the fun part: utilization the embedding properties:
 
