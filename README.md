@@ -110,7 +110,7 @@ A great use case would be if you're writing a paper, or plan to do some research
 
 Here's a quick video demonstration:
 
-https://youtu.be/tlutFm1meMs
+https://www.youtube.com/watch?v=Y-O0wbsg_kY
 
 Here's the version for Computer Science papers https://github.com/Santosh-Gupta/Research2Vec/blob/master/Research2VecPublicPlayGroundVersion2.ipynb
 
